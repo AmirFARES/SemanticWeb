@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://www.baselivre/0018/">
+    <dc:auteur>Mouloud Feraoun</dc:auteur> 
+    <dc:title>le fils du pauvre</dc:title> 
+    <dc:edite>2009</dc:edite> 
+    <dc:Maisedition rdf:resource="http://www.editionEDIT.dz"></dc:Maisedition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.editionEDIT.dz">
+  </rdf:Description>
+</rdf:RDF>

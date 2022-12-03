@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#"
+     xml:base="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_mère -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_mère">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Femme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_père -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_père">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_époux -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#a_pour_époux">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Femme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#frere_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#frere_de"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Nom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#nomjeunehomme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#nomjeunehomme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#homme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#prénom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#prénom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Femme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Femme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Humain"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#karim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#karim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#homme"/>
+        <frere_de rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#amir"/>
+        <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maafi</Nom>
+        <nomjeunehomme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mohamed</nomjeunehomme>
+        <prénom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">karim</prénom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#djamel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#djamel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme"/>
+        <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maafi</Nom>
+        <prénom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">djamel</prénom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#kamel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#amir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme"/>
+        <a_pour_père rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#djamel"/>
+        <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maafi</Nom>
+        <prénom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amir</prénom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#malika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#samira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Femme"/>
+        <a_pour_époux rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#djamel"/>
+        <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maafi</Nom>
+        
+        <prénom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samira</prénom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#omar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#achref">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#Homme"/>
+        <a_pour_père rdf:resource="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#djamel"/>
+        <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maafi</Nom>
+        <prénom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achref</prénom>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
+<!-- cardinalite:-->
+
+<owl:restriction>
+<owl:onProperty rdf:resource"#hasParent"/>
+<owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minCardinality>
+</owl:Restriction>
+

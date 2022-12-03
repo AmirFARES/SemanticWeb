@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  xmlns:s="http://cours.org/etudiants#"
+ xml:base="http://www.univ.org/personne#">
+
+<rdfs:Class rdf:ID='Personne'>
+</rdfs:Class>
+<rdfs:Class rdf:ID='Etudiant'>
+    <rdfs:subClassOf rdf:resource='#Personne'/>
+</rdfs:Class>
+<rdfs:Class rdf:ID='Enseignant'>
+    <rdfs:subClassOf rdf:resource='#Personne'/>
+</rdfs:Class>
+<rdf:Property rdf:ID="Suit-cours-de">
+    <rdfs:domain rdf:resource="#Etudiant"/>
+    <rdfs:range rdf:resource="#Enseignant"/>
+</rdf:Property>
+<rdfs:Property rdf:ID="nom">
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdfs:range rdf:resource='rdfs:Literal'/>
+</rdfs:Property>
+<rdfs:Property rdf:ID="prenom">
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdfs:range rdf:resource='rdfs:Literal'/>
+</rdfs:Property>
+<rdfs:Property rdf:ID="dateNais">
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdfs:range rdf:resource='rdfs:Literal'/>
+</rdfs:Property>
+<rdfs:Property rdf:ID="grade">
+    <rdfs:domain rdf:resource="#Enseignant"/>
+    <rdfs:range rdf:resource='rdfs:Literal'/>
+</rdfs:Property>
+</rdf:RDF>
+
+
+<?xml version="1.0"?>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<et:Etudiant>
+    <et:nom>nom2</et:nom>
+    <et:prenom>Amine</et:prenom>
+    <et:dateNais>01/12/1995</et:dateNais>
+</et:Etudiant>
+<ens:Suit-cours-de>
+    <ens:Enseignant>
+        <ens:nom>nom1</ens:nom>
+        <ens:prenom>Amina</ens:prenom>
+        <ens:dateNais>01/02/1980</ens:dateNais>
+        <ens:grade>MCB</ens:grade>
+    </ens:Enseignant>
+</ens:Suit-cours-de>
+</rdf:RDF>

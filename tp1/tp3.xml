@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zina/ontologies/2022/4/untitled-ontology-16#"
+     xml:base="http://exemple.org/famille"
+     xml:famille="http://exemple.org/famille#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-16="http://exemple.org/famille#">
+    <owl:Ontology rdf:about="http://exemple.org/famille"/>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://exemple.org/famille#a_pour_mère">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#Humain"/>
+        <rdfs:range rdf:resource="http://exemple.org/famille#Femme"/>
+    </owl:ObjectProperty>
+    <!-- <owl:Restriction>
+    <owl:onProperty rdf:resource="#a_pour_mère" />
+      <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+    </owl:Restriction> -->
+    
+
+    <owl:ObjectProperty rdf:about="http://exemple.org/famille#a_pour_père">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#Humain"/>
+        <rdfs:range rdf:resource="http://exemple.org/famille#Homme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <owl:ObjectProperty rdf:about="http://exemple.org/famille#a_pour_époux">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#Femme"/>
+        <rdfs:range rdf:resource="http://exemple.org/famille#Homme"/>
+    </owl:ObjectProperty>
+    
+
+
+
+    <owl:ObjectProperty rdf:about="http://exemple.org/famille#frere_de"/>
+    
+   
+
+
+    <owl:DatatypeProperty rdf:about="http://exemple.org/famille#Nom">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#Humain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty> 
+
+    <owl:DatatypeProperty rdf:about="http://exemple.org/famille#prenom">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#Humain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="http://exemple.org/famille#nomjeunefille">
+        <rdfs:domain rdf:resource="http://exemple.org/famille#femme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+
+    <owl:Class rdf:about="http://exemple.org/famille#Humain">
+    </owl:Class>
+
+    <owl:Class rdf:about="http://exemple.org/famille#Femme">
+        <rdfs:subClassOf rdf:resource="http://exemple.org/famille#Humain"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://exemple.org/famille#Homme">
+        <rdfs:subClassOf rdf:resource="http://exemple.org/famille#Humain"/>
+    </owl:Class>
+
+    
+</rdf:RDF>
+
+<!-- add instance and cardinality  -->

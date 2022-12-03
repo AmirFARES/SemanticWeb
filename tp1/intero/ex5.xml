@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:s="http://description.exemple1/schema/">
+    <rdf:Description rdf:about="http://www.baselivre/0018">
+        <s:auteur>Mouloud Feraoun</s:auteur>
+        <s:titre>le fils du pauvre</s:titre>
+        <s:edition>2009</s:edition>
+        <s:Maisedition rdf:resource="http://www.editionEDIT.dz"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.editionEDIT.dz">
+        <s:Nom>Dar El Ilm</s:Nom>
+        <s:email rdf:resource="darelilm@yahoo.fr"/>
+        <s:tel>041556622</s:tel>
+    </rdf:Description>
+</rdf:RDF>

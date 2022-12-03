@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:s="http://www.exemplew/2011/contact">
+    <rdf:Description rdf:about="http://www.personne/employe/contact">
+        <s:nom>Lahcene Mohamed</s:nom>
+        <s:adresse rdf:nodeID="LMad"/> <!-- hna kant rdf:resource="#Lmad" ghlata -->
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="LMad">
+        <s:num>13</s:num>
+        <s:rue>rue de 1er novembre 54</s:rue>
+        <s:wilaya>setif</s:wilaya>
+        <s:country>Algerie</s:country>
+    </rdf:Description>
+</rdf:RDF>

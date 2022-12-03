@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xml:base="http://mycollege.edu/"
+    xmlns:s="http://description.exemple1/schema/">
+    <rdf:Description rdf:about="/cours/ontologie">
+        <s:etudiants>
+            <rdf:bag>
+                <rdf:li>moha</rdf:li>
+                <rdf:li>fatem</rdf:li>
+                <rdf:li>sonia</rdf:li>
+                <rdf:li>nabil</rdf:li>
+                <rdf:li>amine</rdf:li>
+            </rdf:bag>
+        </s:etudiants>
+    </rdf:Description>
+</rdf:RDF>

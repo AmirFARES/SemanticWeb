@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://mycollege.edu/Cours/Ontologie">
+    <dc:Etudiants>
+      <rdf:bag>
+        <rdf:li rdf:resource="moha"></rdf:li>
+        <rdf:li rdf:resource="fatem"></rdf:li>
+        <rdf:li rdf:resource="sonia"></rdf:li>
+        <rdf:li rdf:resource="nabil"></rdf:li>
+        <rdf:li rdf:resource="amine"></rdf:li>
+      </rdf:bag>
+    </dc:Etudiants>
+  </rdf:Description>
+</rdf:RDF>

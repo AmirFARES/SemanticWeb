@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://www.personne/employe/contact">
+    <dc:nom>Lahcene</dc:nom>
+    <dc:prenom>Mohamed</dc:prenom>
+    <dc:adresse rdf:nodeID="ad"></dc:adresse>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ad">
+    <dc:numRue>13</dc:numRue>
+    <dc:nomRue>rue de 1er novembre 54</dc:nomRue>
+    <dc:ville>setif en algerie</dc:ville>
+  </rdf:Description>
+</rdf:RDF>

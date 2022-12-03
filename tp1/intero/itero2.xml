@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:s="http://www.exemplew/2011/contact/">
+    <rdf:Description rdf:about="http://www.personne/contact">
+        <s:nom>Mohamed</s:nom>
+        <s:entreprise rdf:resource="http://www.entreprise.com"/>
+        <s:enfants>
+            <rdf:Seq>
+                <rdf:li>Ali</rdf:li>
+                <rdf:li>Nassim</rdf:li>
+                <rdf:li>Amina</rdf:li>
+            </rdf:Seq>
+        </s:enfants>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.entreprise.com">
+        <s:place>Alger</s:place>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:univ="http://univ.com/terms/" xml:base="http://univ.com/chercheur/#">
+  <rdf:Description rdf:about="0022">
+    <univ:nom>Refoufi</univ:nom>
+    <univ:prenom>Alaoua</univ:prenom>
+    <univ:labo>LRSD</univ:labo>
+  </rdf:Description>
+  <rdf:Description rdf:about="0035">
+    <univ:nom>Mediani</univ:nom>
+    <univ:prenom>Chahrazed</univ:prenom>
+    <univ:labo>Rio</univ:labo>
+  </rdf:Description>
+</rdf:RDF>

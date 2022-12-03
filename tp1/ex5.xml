@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://www.baselivre/0018/">
+    <dc:Auteur>Mouloud Feraoun</dc:Auteur> 
+    <dc:Titre>Le fils du pauvre</dc:Titre> 
+    <dc:AnEdition>2009</dc:AnEdition> 
+    <dc:Maisedition rdf:resource="http://www.editionEDIT.dz"></dc:Maisedition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.editionEDIT.dz">
+    <dc:Nom>Dar El Ilm</dc:Nom>
+    <dc:E-mail rdf:resource="mailto:darelilm@yahoo.fr"></dc:E-mail>
+    <dc:Tel>041 55 66 22</dc:Tel>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:darelilm@yahoo.fr"></rdf:Description>
+</rdf:RDF>
